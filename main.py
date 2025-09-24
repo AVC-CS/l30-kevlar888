@@ -1,15 +1,13 @@
 def main():
-    ##################################################
-    # Complete your code here
-    ##################################################
-    
+# Ask the user for an integer
+    number = int(input('Enter an integer: '))
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
-    if result:
+    # Use modulus operator to check if odd or even
+    if number % 2 == 1: #odd\
+        result = 1
         print(f'The value {number} is an odd number')
     else:
+        result = 0
         print(f'The value {number} is an even number')
     return result
 
